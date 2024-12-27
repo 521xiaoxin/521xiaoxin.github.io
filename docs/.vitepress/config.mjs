@@ -18,7 +18,7 @@ export default defineConfig({
         ['script', {src: '/js/mouse-trail.js'}],
         [
             'link',
-            {rel: 'icon', href: '/logo.svg'}
+            {rel: 'icon', href: '/logo.jpg'}
         ],
         // 点击彩虹
         // <!--鼠标点击特效-->
@@ -87,7 +87,6 @@ export default defineConfig({
             text: "在 github 上编辑此页",
         },
         footer: {
-            message: `本站收录内容源自互联网，不对其网站内容或交易负责。&ensp;|&ensp;如有内容侵犯权益，请联系站长删除相关内容！`,
             copyright: '<a href="https://space.bilibili.com/1909782963" target="_blank">Copyright © 2024 IT.Python斗罗</a>&ensp;|&ensp;<span id="runtime"></span>',
         },
         docFooter: {
